@@ -1,7 +1,4 @@
 <?php
-/*
-Plugin Name: Hotfix
-*/
 
 require_once dirname( __FILE__ ) . '/vendor/autoload.php';
 
