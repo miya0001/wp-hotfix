@@ -1,6 +1,6 @@
 <?php
 
-namespace Megumi\WP;
+namespace Firegoby\WP;
 
 class Hotfix
 {

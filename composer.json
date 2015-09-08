@@ -1,18 +1,12 @@
 {
-    "name": "megumi/hotfix",
+    "name": "firegoby/wp-hotfix",
     "license": "GPL2",
     "require": {
         "php": ">=5.3"
     },
-    "authors": [
-        {
-            "name": "Takayuki Miyauchi",
-            "email": "miyauchi@digitalcube.jp"
-        }
-    ],
     "autoload": {
         "psr-0": {
-            "Megumi": "lib/"
+            "Firegoby": "lib/"
         },
         "files": [
             "hotfix.php"

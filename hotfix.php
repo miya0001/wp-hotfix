@@ -11,7 +11,7 @@ class Load_Hotfix
 	{
 		global $wp_version;
 
-		$hotfix_class = 'Megumi\WP\Hotfix\Version_' . intval( str_replace( '.', '', $wp_version ) );
+		$hotfix_class = 'Firegoby\WP\Hotfix\Version_' . intval( str_replace( '.', '', $wp_version ) );
 
 		if ( class_exists( $hotfix_class ) ) {
 			$hotfix = new $hotfix_class(); // load if exists

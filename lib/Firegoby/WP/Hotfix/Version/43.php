@@ -1,8 +1,8 @@
 <?php
 
-namespace Megumi\WP\Hotfix;
+namespace Firegoby\WP\Hotfix;
 
-class Version_43 extends \Megumi\WP\Hotfix
+class Version_43 extends \Firegoby\WP\Hotfix
 {
 	public function plugins_loaded()
 	{
